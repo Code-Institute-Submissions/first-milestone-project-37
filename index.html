@@ -8,34 +8,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />  
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Joe Black's Resume</title>
+    <title>Joe Black</title>
 </head>
 <body>
 
     <header>
     <!--Navbar . Bootstrap-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">JB</a>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavItem" aria-controls="navbarNavItem" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavItem">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="aboutme">About Me</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#resume">Resume</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light">
+        <a class="navbar-brand ml-3" href="index.html">JB</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-center">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
     </nav>
-    <!--Main Image-->
-    <selection id="main-image">
-        <div class="container-fluid callout-img">
+    <!--Main Section/Image-->
+    
+        <div class="container-fluid main-container">
         <div class="opaque-overlay">&nbsp;</div>
             <div class="col-12">
-                <div class="callout">
-                    <h1 class="uppercase">I'm Joe Black</h1>
-                    <h5>UX/UI Designer and Front-end Developer</h5>
+                <div class="textMain">
+                    <p class="title">I'm Joe Black</p>
+                    <p class="titelsub">UX/UI Designer and Front-end Developer</p>
                 </div>
             </div>
         </div>
