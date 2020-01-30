@@ -1,15 +1,87 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700,100italic,200italic,300italic,400italic,500italic,600italic,700italic&subset=latin,cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,700,100italic,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower:400,700');
+
+/***scroll***/
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Roboto+Mono", sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     color: #141414;
-    font-size: 700;
+    font-size: 68px;
     line-height: 1.5;
 }
+
+/***navbar***/
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 13px;
+    padding-right: 0;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    border-color: grey;
+    margin-right: 5px;
+   
+}
+
+.navbar-brand {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    margin-right: 13px;
+}
+
+.navbar-center {
+    text-align: center;
+}
+
+.main-container {
+    height: 100vh;
+    background: url('../assets/images/pen.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #141414;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textMain {
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: #141414;
+}
+
+.title {
+    font-size: 68px;
+    text-transform: uppercase;
+}
+}
+
 
 
 
