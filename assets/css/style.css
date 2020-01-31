@@ -14,7 +14,14 @@ body {
     line-height: 1.5;
 }
 
+
+
 /***navbar***/
+
+nav {
+    height: 50px;
+    width: 100%;
+}
 
 .navbar {
     margin-bottom: 0;
@@ -47,6 +54,9 @@ body {
     text-align: center;
 }
 
+
+/**Container**/
+
 .main-container {
     height: 100vh;
     background: url('..//images/black-pen.jpg')no-repeat center center;
@@ -69,6 +79,7 @@ body {
     width: 100%;
 }
 
+
 .textMain {
     font-family: 'Roboto Mono', sans-serif;
     text-align: center;
@@ -81,8 +92,47 @@ body {
     text-transform: uppercase;
 }
 
+/**Footer**/
 
 
+.footer-container {
+    background: white;
+    text-align: center;
+    color: #141414;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.social-icons {
+    color: #363636;
+    font-size: 20px;
+}
+
+.contain-icons {
+    justify-content: center;
+}
+
+.footer {
+    height: 50px;
+}
+
+/**** Font awesome icon properties ****/
+
+.icon {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+i {
+    color: #363636;
+}
+
+i:hover {
+    color: orange;
+}
 
 
 
