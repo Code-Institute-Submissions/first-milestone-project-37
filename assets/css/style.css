@@ -26,7 +26,7 @@ nav {
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgb(255,255,255);
+    background-color: rgba(255, 255, 255, 0.952);
     font-family: 'Roboto Mono', sans-serif;
     font-size: 13px;
     padding-right: 0;
@@ -51,7 +51,7 @@ nav {
 }
 
 .navbar-center {
-    text-align: center;
+    text-align: right;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -63,6 +63,9 @@ nav {
     color: #F26B38
 }
 
+.navbar-light .navbar-brand:hover {
+    color: #F26B38
+}
 
 /**Container**/
 
