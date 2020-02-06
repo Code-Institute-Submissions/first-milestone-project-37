@@ -139,6 +139,12 @@ nav {
 }
 
 
+.info-list ul li strong {
+  font-weight: 400;
+  color: #f26b38;
+  float: center;
+}
+
 .info-list ul li {
   display: inline-block;
   vertical-align: top;
@@ -147,13 +153,27 @@ nav {
   margin: 20px 0 0 0;
 }
 
-.info-list ul li strong {
-  font-weight: 400;
-  color: #f26b38;
-}
 
-.space {
-    height: 25%;
+/**Download Button**/
+
+.btn {
+    display: inline-block;
+	vertical-align: middle;
+	height: 42px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 13px;
+	background: #f26b38;
+	border: 1px solid #f26b38;
+	position: relative;
+	overflow: hidden;
+	padding: 0 30px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
 }
 
 /**About me**/
@@ -215,7 +235,10 @@ nav {
     }
 .btn-success {
     background-color: #F26B38;
+    font-size: 12px;
     border: none;
+    width: 40%;
+    float: center;
 }
 
 .btn-success:hover {
