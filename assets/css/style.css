@@ -104,6 +104,39 @@ nav {
     text-transform: uppercase;
 }
 
+/**SECTION**/
+
+/**About me**/
+
+.aboutme {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+    line-height: 18px;
+    font-size: 13px;
+    color: #141414;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-top: 20px;
+
+}
+
+/**Resume**/
+
+.aboutresume {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+    line-height: 18px;
+    font-size: 13px;
+    color: #141414;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-top: 20px;
+}
+
 /**Footer**/
 
 
