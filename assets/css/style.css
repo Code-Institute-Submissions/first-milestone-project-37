@@ -71,7 +71,7 @@ nav {
 
 .main-container {
     height: 100vh;
-    background: url('..//images/black-pen.jpg')no-repeat center center;
+    background: url('..//images/black-pen.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -119,6 +119,8 @@ nav {
     text-transform: uppercase;
     letter-spacing: 0.04em;
     padding-top: 20px;
+    padding-left: 50px;
+    text-shadow: 7px 5px 0px #ede574;
 
 }
 
@@ -135,6 +137,46 @@ nav {
     text-transform: uppercase;
     letter-spacing: 0.04em;
     padding-top: 20px;
+    padding-left: 50px;
+    text-shadow: 7px 5px 0px #ede574;
+}
+
+/**Contact (container and form)**/
+
+
+.contact-container {
+    height: 100vh;
+    background: #141414;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #141414;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.contactme {
+        font-size: 20px;
+        color: white;
+    }
+.btn-success {
+    background-color: #F26B38;
+    border: none;
+}
+
+.btn-success:hover {
+    color: #141414;
+    background-color: #F26B38;
+}
+
+.btn-success:active {
+    background: #F26B38 !important;
+    outline: none;
+    box-shadow: none !important;
 }
 
 /**Footer**/
