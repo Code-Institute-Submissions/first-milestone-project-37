@@ -130,12 +130,12 @@ nav {
 
 .about-photo {
     width: auto !important;
-    height: 25% !important;
-    border-radius: 50%;
+    height: 100% !important;
+    border: 1px solid #ddd;
+    border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 5px;
 }
 
 
@@ -188,7 +188,7 @@ nav {
     color: #141414;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 50px;
     text-shadow: 7px 5px 0px #ede574;
 
@@ -206,7 +206,7 @@ nav {
     color: #141414;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 50px;
     text-shadow: 7px 5px 0px #ede574;
 }
@@ -229,8 +229,12 @@ nav {
     font-family: 'Roboto Mono', sans-serif;
 }
 
+.form-control {
+    font-size: 13px;
+}
+
 .contactme {
-        font-size: 20px;
+        font-size: 15px;
         color: white;
     }
 .btn-success {
