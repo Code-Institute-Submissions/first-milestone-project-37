@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,700,100italic,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,700');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower:400,700');
 
 /***scroll***/
@@ -82,10 +82,10 @@ nav {
 .main-container {
     height: 100vh;
     background: url('..//images/black-pen.jpg')no-repeat center center fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,7 +154,7 @@ nav {
 .info-list ul li strong {
   font-weight: 400;
   color: #f26b38;
-  float: center;
+  float: none;
 }
 
 .info-list ul li {
@@ -295,7 +295,7 @@ nav {
     font-size: 12px;
     border: none;
     width: 70%;
-    float: center;
+    float: none;
 }
 
 .btn-success:hover {
