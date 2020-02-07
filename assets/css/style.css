@@ -231,7 +231,7 @@ nav {
     color: #141414;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    padding-left: 150px;
+    padding-left: 35px;
     padding-bottom: 35px;
 }
 
@@ -247,6 +247,54 @@ nav {
 .css {width: 90%; background-color: #f26b38;} 
 .js {width: 75%; background-color: #f26b38;} 
 .django {width: 60%; background-color: #f26b38;} 
+
+/**Experience**/
+.history-heading{
+    color: #141414;
+    margin-bottom: 50px;
+}
+
+.timeline-item{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #141414;
+    border-left: 1px solid;
+}
+
+.timeline-item p{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before{
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #f26b38;
+}
+
+.history-items{
+    margin-bottom: 10px;
+}
+
 
 /**Contact (container and form)**/
 
