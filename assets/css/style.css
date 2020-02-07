@@ -17,7 +17,7 @@ body {
 }
 
 body p {
-    margin-bottom: 10px 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -177,7 +177,7 @@ nav {
 	color: #ffffff;
 	font-size: 13px;
 	background: #f26b38;
-	border: 1px solid #f26b38;
+	border: 1px solid #f26b39;
 	position: relative;
 	overflow: hidden;
 	padding: 0 30px;
@@ -278,7 +278,7 @@ nav {
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #141414;
+    color: #141415;
     font-family: 'Roboto Mono', sans-serif;
 }
 
