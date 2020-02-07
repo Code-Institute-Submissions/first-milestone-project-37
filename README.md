@@ -56,6 +56,26 @@ and hover have been adjusted to compliment the website color scheme.
     - The project uses jQuery to reference Javascript needed for the responsive navbar
 - Images are from [Pexels](https://www.pexels.com/)
 
+
+## Testing 
+
+I was testing across different platforms and web browsers in order to make sure the website looked great also 
+asked friends and family to test across their own devices and to give me honest opinions and feedback.
+
+* Windows 10
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Interner Explorer
+
+* Sony Xperia Z1 Compact
+- Google Chrome
+- Mozilla Firefox
+
+* Xiaomi Mi Note 10
+- Google Chrome
+- Mozilla Firefox
+
 ## Deployment
 
 This project was developed using the [GitHub](https://github.com/) , committed to git and pushed to GitHub using the built in function within Github. 
