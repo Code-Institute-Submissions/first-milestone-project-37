@@ -1,15 +1,15 @@
-#   Meet Joe Black / My 1st Ms Project
+#Meet Joe Black / My 1st Ms Project
 
-    <img width="1000" height="400" src="https://github.com/kompeet/first-milestone-project/blob/master/wireframes/preview.JPG">
+<img width="1000" height="400" src="https://github.com/kompeet/first-milestone-project/blob/master/wireframes/preview.JPG">
 
 
-    <div align="center">
-    [View website in GitHub Pages](https://github.com/kompeet/firts-milestone-project)
-    </div>
+<div align="center">
+[View website in GitHub Pages](https://github.com/kompeet/firts-milestone-project)
+</div>
 
-    I have used HTML, CSS and Bootstrap Framework to build this and the website.
+I have used HTML, CSS and Bootstrap Framework to build this and the website.
 
-##UX
+## UX
 
 A responsive website for a **fictional** man who lives in San Diego, United States.     
 Website features resume, downloadable Curriculum Vitea, progress bar and contact form.
@@ -28,22 +28,22 @@ The clients goals of this website:
 
 #### Wireframe mockups:
 
-    The wireframes for the initial layout of the website I drawn by hand and can be located here. [here](https://github.com/kompeet/first-milestone-project/tree/master/wireframes)
-    When designing the initial layout of the website I provided a sketch for how I picutred the website to look on both large screens such as desktops  
-    and how it would look on small screens such as a mobile phone.
+The wireframes for the initial layout of the website I drawn by hand and can be located here. [here](https://github.com/kompeet/first-milestone-project/tree/master/wireframes)
+When designing the initial layout of the website I provided a sketch for how I picutred the website to look on both large screens such as desktops  
+and how it would look on small screens such as a mobile phone.
 
 
 #### Design Choices 
 
-*   For the main website content I decided on a shades of black and white for the color scheme. 
-    The rational for choosing two shades of yellow and orange which aids in highlighting the content within it.
-*   The buttons were primarily based on Bootstraps btn class however; the color scheme of the button, fonts, 
-    and hover have been adjusted to compliment the website color scheme.
+* For the main website content I decided on a shades of black and white for the color scheme. 
+The rational for choosing two shades of yellow and orange which aids in highlighting the content within it.
+* The buttons were primarily based on Bootstraps btn class however; the color scheme of the button, fonts, 
+and hover have been adjusted to compliment the website color scheme.
 
 ## Used Technologies Used 
 
 - This project uses HTML and CSS programming languages.
-- [GitHub](https://github.com/) - This developer used **Cloud9** for their IDE while building the website.
+- [GitHub](https://github.com/) - This developer used GitHub for their IDE while building the website.
 - [Bootstrap](https://getbootstrap.com/)  
 - [Google Fonts](https://fonts.google.com/)
     - The project uses Google fonts to style the website fonts.
@@ -64,19 +64,6 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
 7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
-### How to run this project locally
-
-To clone this project from GitHub:
-1. Follow this link to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist).
-2. Under the repository name, click "Clone or download".
-3. In the Clone with HTTPs section, copy the clone URL for the repository. 
-4. In your local IDE open Git Bash.
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type ```git clone```, and then paste the URL you copied in Step 3.
-```console
-git clone https://github.com/USERNAME/REPOSITORY
-```
-7. Press Enter. Your local clone will be created.
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
@@ -99,6 +86,6 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 - I received inspiration for this project from Meet Joe Black and one my best friend Gabor Molnar.
 - My mentor Aaron Sinnott guided me towards.
 
-#### Disclaimer
+### Disclaimer
 
-**The content of this Website is for educational purposes only.**
+**_The content of this Website is for educational purposes only._**
