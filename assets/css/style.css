@@ -17,7 +17,7 @@ body {
 }
 
 body p {
-    margin-bottom: 5px;
+    margin-bottom: 10px 10px;
 }
 
 
@@ -294,7 +294,7 @@ nav {
     background-color: #F26B38;
     font-size: 12px;
     border: none;
-    width: 40%;
+    width: 70%;
     float: center;
 }
 
@@ -356,29 +356,23 @@ i:hover {
 @media only screen and (max-width: 600px) {
   body p {
     font-size: 13px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
 
-
-  .div .opaque-overlay .col-sm-12 .form-wrapper {
-    width: 90%;
-    margin: 0 auto;
-    }
 }
 
-
-
-@media only screen and (max-width: 575px) {
-  .div .opaque-overlay .col-sm-12 .form-wrapper {
-    min-height: 82%
-    }
-}
 
 @media only screen and (min-width: 576px) {
-  .div .opaque-overlay .col-sm-12 .form-wrapper {
+  .div .opaque-overlay .col-sm-12  {
     min-height: 97%
     }
+    body p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
 }
 
 
