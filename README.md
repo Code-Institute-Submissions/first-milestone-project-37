@@ -1,4 +1,6 @@
-#Meet Joe Black / My 1st Ms Project
+# Meet Joe Black / My 1st Ms Project
+
+
 
 <img width="1000" height="400" src="https://github.com/kompeet/first-milestone-project/blob/master/wireframes/preview.JPG">
 
@@ -7,7 +9,10 @@
 [View website in GitHub Pages](https://github.com/kompeet/firts-milestone-project)
 </div>
 
-I have used HTML, CSS and Bootstrap Framework to build this and the website.
+
+
+
+_I have used HTML, CSS and Bootstrap Framework to build this and the website._
 
 ## UX
 
@@ -89,3 +94,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ### Disclaimer
 
 **_The content of this Website is for educational purposes only._**
+
+
+Best Regards,
+kompeet
