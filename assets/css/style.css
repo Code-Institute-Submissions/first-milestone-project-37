@@ -383,7 +383,33 @@ i:hover {
     color: orange;
 }
 
+/*--Media Queries--*/
 
+@media only screen and (max-width: 600px) {
+  body p {
+    font-size: 1.1rem;
+    }
+
+
+  .div .opaque-overlay .col-sm-12 .form-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  .div .opaque-overlay .col-sm-12 .form-wrapper {
+    min-height: 82%
+    }
+}
+
+@media only screen and (min-width: 576px) {
+  .div .opaque-overlay .col-sm-12 .form-wrapper {
+    min-height: 97%
+    }
+}
 
 
 
