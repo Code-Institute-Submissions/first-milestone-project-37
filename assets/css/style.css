@@ -7,11 +7,17 @@ html {
     scroll-behavior: smooth;
 }
 
+/**body**/
+
 body {
     font-family: 'Roboto Mono', sans-serif;
     color: #141414;
     font-size: 68px;
     line-height: 1.5;
+}
+
+body p {
+    margin-bottom: 5px;
 }
 
 
@@ -59,6 +65,10 @@ nav {
     
 }
 
+.navbar-nav .nav-link {
+    padding-right: 10px;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: #F26B38
 }
@@ -104,7 +114,7 @@ nav {
     text-transform: uppercase;
 }
 
-/**SECTION**/
+/**SECTION About me**/
 
 .about-section-container {
     margin-top: 50px;
@@ -127,6 +137,7 @@ nav {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+/**Photo**/
 
 .about-photo {
     width: auto !important;
@@ -138,6 +149,7 @@ nav {
     padding: 5px;
 }
 
+/**Profile list items**/
 
 .info-list ul li strong {
   font-weight: 400;
@@ -188,7 +200,7 @@ nav {
     color: #141414;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 50px;
     text-shadow: 7px 5px 0px #ede574;
 
@@ -206,40 +218,39 @@ nav {
     color: #141414;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 50px;
     text-shadow: 7px 5px 0px #ede574;
 }
 /**My Skills**/
 
-
-
-/* Container for skill bars */
 .container {
   width: 50%; 
   background-color: #ddd; 
   font-size: 13px;
+  padding: 0px;
 }
+
 
 .aboutskill{
     display: inline-block;
     vertical-align: middle;
-    text-align: left;
+    text-align: center;
     position: relative;
-    line-height: 18px;
+    line-height: 15px;
     font-size: 10px;
     color: #141414;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    padding-left: 35px;
+    padding-left: 15px;
     padding-bottom: 35px;
 }
 
 
 .skills {
   text-align: right; 
-  padding-top: 10px; 
-  padding-bottom: 10px; 
+  padding-top: 13px;
+  padding-bottom: 13px;  
   color: white; 
 }
 
@@ -247,53 +258,10 @@ nav {
 .css {width: 90%; background-color: #f26b38;} 
 .js {width: 75%; background-color: #f26b38;} 
 .django {width: 60%; background-color: #f26b38;} 
+.uidesign {width: 55%; background-color:#f26b38;} 
+.mysql {width: 80%; background-color:#f26b38;}
+.photoshop {width: 45%; background-color:#f26b38;}  
 
-/**Experience**/
-.history-heading{
-    color: #141414;
-    margin-bottom: 50px;
-}
-
-.timeline-item{
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #141414;
-    border-left: 1px solid;
-}
-
-.timeline-item p{
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before{
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Roboto Mono", sans-serif;
-    font-weight: 500;
-    font-size: 13px;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after{
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #f26b38;
-}
-
-.history-items{
-    margin-bottom: 10px;
-}
 
 
 /**Contact (container and form)**/
@@ -387,7 +355,9 @@ i:hover {
 
 @media only screen and (max-width: 600px) {
   body p {
-    font-size: 1.1rem;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     }
 
 
