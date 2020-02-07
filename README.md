@@ -62,19 +62,19 @@ and hover have been adjusted to compliment the website color scheme.
 I was testing across different platforms and web browsers in order to make sure the website looked great also 
 asked friends and family to test across their own devices and to give me honest opinions and feedback.
 
-* Windows 10
-Google Chrome
-Mozilla Firefox
-Microsoft Edge
-Interner Explorer
+* ~~Windows 10~~
++ *Google Chrome*
++ *Mozilla Firefox*
++ *Microsoft Edge*
++ *Interner Explorer*
 
-* Sony Xperia Z1 Compact
-Google Chrome
-Mozilla Firefox
+* ~~Sony Xperia Z1 Compact~~
++ *Google Chrome*
++ *Mozilla Firefox*
 
-* Xiaomi Mi Note 10
-Google Chrome
-Mozilla Firefox
+* ~~Xiaomi Mi Note 10~~
++ *Google Chrome*
++ *Mozilla Firefox*
 
 ## Deployment
 
