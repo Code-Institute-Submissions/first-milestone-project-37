@@ -210,6 +210,43 @@ nav {
     padding-left: 50px;
     text-shadow: 7px 5px 0px #ede574;
 }
+/**My Skills**/
+
+
+
+/* Container for skill bars */
+.container {
+  width: 50%; 
+  background-color: #ddd; 
+  font-size: 13px;
+}
+
+.aboutskill{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+    line-height: 18px;
+    font-size: 10px;
+    color: #141414;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-left: 150px;
+    padding-bottom: 35px;
+}
+
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 100%; background-color:#f26b38;} 
+.css {width: 90%; background-color: #f26b38;} 
+.js {width: 75%; background-color: #f26b38;} 
+.django {width: 60%; background-color: #f26b38;} 
 
 /**Contact (container and form)**/
 
