@@ -6,7 +6,7 @@
 
 
 <div align="center">
-[View website in GitHub Pages](https://github.com/kompeet/firts-milestone-project)
+[View website](https://github.com/kompeet/firts-milestone-project)
 </div>
 
 
